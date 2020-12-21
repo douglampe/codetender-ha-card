@@ -1,0 +1,59 @@
+{
+  "remote": [
+    {
+      "src": "https://github.com/custom-cards/boilerplate-card.git",
+      "dest": "/",
+      "tokens": [
+        {
+          "pattern": "1.3.2",
+          "replacement": "1.0.0"
+        }
+      ]
+    }
+  ],
+  "ignore": [
+    "README.md"
+  ],
+  "tokens": [
+    {
+      "pattern": "Boilerplate Card",
+      "prompt": "Card Name (ex: Widget Card): "
+    },
+    {
+      "pattern": "Lovelace boilerplate-card",
+      "prompt": "Card Description: "
+    },
+    {
+      "pattern": "BoilerplateCard",
+      "prompt": "Class Name (ex: WidgetCard): "
+    },
+    {
+      "pattern": "boilerplate-card",
+      "prompt": "Lowercase Card Name (ex: widget-card): "
+    },
+    {
+      "pattern": "BOILERPLATE-CARD",
+      "prompt": "Console Tag (ex: WIDGET-CARD): "
+    },
+    {
+      "pattern": "Boilerplate",
+      "prompt": "Short Name (ex: Widget): "
+    },
+    {
+      "pattern": "boilerplate",
+      "prompt": "Lowercase Short Name (ex: widget) "
+    },
+    {
+      "pattern": "Ian Richardson",
+      "prompt": "Your Name: "
+    },
+    {
+      "pattern": "iantrich@gmail.com",
+      "prompt": "Your e-mail address: "
+    },
+    {
+      "pattern": "iantrich",
+      "prompt": "GitHub Handle: "
+    }
+  ]
+}
