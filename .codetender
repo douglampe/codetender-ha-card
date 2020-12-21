@@ -7,6 +7,10 @@
         {
           "pattern": "1.3.2",
           "replacement": "1.0.0"
+        },
+        {
+          "pattern": "custom_cards",
+          "replacement": "iantrich"
         }
       ]
     }
